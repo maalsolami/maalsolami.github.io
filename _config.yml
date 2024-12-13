@@ -21,14 +21,14 @@ repository               : "maalsolami.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "profile-pa.png"
+  name             : "Mustafa Alsolami"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "PhD Student at the Uinversity of Delaware"
+  location         : "Northeast US"
+  employer         : "put your company name here"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "invalid@email.not" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
