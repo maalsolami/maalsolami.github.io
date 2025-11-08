@@ -12,7 +12,7 @@ cssclasses:
 socialDescription:
 socialImage:
 created: 2025-11-07
-last-modified: 2025-11-07
+modified: 2025-11-08
 published: 2025-11-07
 ---
 
@@ -41,6 +41,12 @@ The following are some of the quotes that I think about, forget, and think about
 
 \-- Henry David Thoreau, Walden or, Life in the Woods
 
+## Contact me
+Please use the [contact form](https://docs.google.com/forms/d/e/1FAIpQLSe4XV7tFMATxKQjimwGJwSEmGsrDjSTsZBqTDiE7Hwx46-4zg/viewform?usp=header) to leave a message.
+
+>[!Note]- Contact Form
+>
+><iframe title="Contact Form" src="https://docs.google.com/forms/d/e/1FAIpQLSe4XV7tFMATxKQjimwGJwSEmGsrDjSTsZBqTDiE7Hwx46-4zg/viewform?usp=header" height=1024 width=768 ></iframe>
 
 ---
 The site is still under construction and will be updated soon.
