@@ -1,5 +1,5 @@
 ---
-title: Embeds
+title: Embed Markdown Files
 description:
 permalink:
 lang: en-US
@@ -15,7 +15,7 @@ created: 2025-11-07
 modified: 2025-11-07
 published: 2025-11-07
 ---
-Embed another file (read more about [[VRT/Formatting/Embeds]]). Here's an embedded section:
+Embed another file (read more about [[VRT/Formatting/Embed Markdown Files]]). Here's an embedded section:
 
 ```md
 ![[Pyramid]]

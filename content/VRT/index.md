@@ -12,9 +12,10 @@ cssclasses:
 socialDescription:
 socialImage:
 created: 2025-11-07
-modified: 2025-11-07
+modified: 2025-11-08
 published: 2025-11-07
 ---
+![[falco.png|200]]
 Hi, welcome to the website!
 
 ---
@@ -31,7 +32,7 @@ This site is powered by [Quartz](https://quartz.jzhao.xyz/) static site generato
 [[VRT/Formatting/Code block|Code block]]
 [[VRT/Formatting/Comment|Comment]]
 [[VRT/Formatting/Diagram|Diagram]]
-[[VRT/Formatting/Embeds|Embeds]]
+[[VRT/Formatting/Embed Markdown Files|Embed Markdown Files]]
 [[VRT/Formatting/Emphasis|Emphasis]]
 [[VRT/Formatting/Footnote|Footnote]]
 [[VRT/Formatting/Format your notes|Format your notes]]
@@ -46,6 +47,11 @@ This site is powered by [Quartz](https://quartz.jzhao.xyz/) static site generato
 [[VRT/Formatting/Math|Math]]
 [[VRT/Formatting/Strikethrough|Strikethrough]]
 [[VRT/Formatting/Table|Table]]
+[[VRT/Formatting/Tags|Tags]]
+[[VRT/Formatting/Videos|Videos]]
+[[VRT/Formatting/Paragraphs|Paragraphs]]
+[[VRT/Formatting/Social Networking Services|Social Networking Services]]
+
 
 ---
 

@@ -19,7 +19,7 @@ The following are the possible notes formatting:
 
 ![[VRT/Formatting/Internal link]]
 
-![[VRT/Formatting/Embeds]]
+![[VRT/Formatting/Embed Markdown Files]]
 
 ![[VRT/Formatting/Heading]]
 

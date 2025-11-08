@@ -12,10 +12,12 @@ cssclasses:
 socialDescription:
 socialImage:
 created: 2025-11-07
-modified: 2025-11-07
+modified: 2025-11-08
 published: 2025-11-07
 ---
+You can add math expressions to your document using [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html) and the LaTeX notation.
 ## Inline Math
+You can also inline math expressions by wrapping it in $ symbols.
 
 ```md
 Inline math can be rendered by delimiting math expression with a single \$.  For example, $e^{2i\pi} = 1$ or like $e^{i\pi} + 1 = 0$.
@@ -94,6 +96,10 @@ $$
 
 Math is rendered using [Mathjax](http://docs.mathjax.org/en/latest/basic/mathjax.html). You can check which packages are supported in Mathjax [here](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
 
->[!WARNING] Quartz Issue
->Due to limitations in the [underlying parsing library](https://github.com/remarkjs/remark-math), block math in Quartz requires the \$\$ delimiters to be on newlines like above.
+>[!WARNING] Rendering Issue
+>Due to limitations in the some [underlying parsing library](https://github.com/remarkjs/remark-math), block math may requires the \$\$ delimiters to be on newlines.
 
+
+For more information about the syntax, refer to [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
+
+For a list of supported MathJax packages, refer to [The TeX/LaTeX Extension List](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
