@@ -1,0 +1,9 @@
+.callout[data-callout="minimal-callout"] {
+    --callout-color: transparent;
+    border: none;
+    --callout-icon: pen-tool;
+}
+ 
+.callout[data-callout="minimal-callout"] .callout-content {
+    text-align: center;
+}
