@@ -14,7 +14,7 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
-          {cfg.pageTitle}{" "}© {year}{" ."}
+          {cfg.pageTitle}{" "}© {year}{". "}
           {i18n(cfg.locale).components.footer.poweredBy}{" "}
           <a href="https://quartz.jzhao.xyz/">{displayName}</a> 
         </p>
