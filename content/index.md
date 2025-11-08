@@ -12,8 +12,8 @@ cssclasses:
 socialDescription:
 socialImage:
 created: 2025-11-07
-last-modified: 2025-11-05
-published: 2025-11-05
+last-modified: 2025-11-07
+published: 2025-11-07
 ---
 
 ## About
@@ -31,18 +31,18 @@ I intend to post about:
 ## Quotes
 The following are some of the quotes that I think about, forget, and think about them again:
 
->[!QUOTE]+
->If you want to walk fast, walk alone; if you want to walk far, walk together
+>[!QUOTE]
+>If you want to walk fast, walk alone; if you want to walk far, walk together.
 
 \--Proverb
 
 >[!QUOTE]
->“If you have built castles in the air, your work need not be lost; that is where they should be. Now put the foundations under them.”
+>If you have built castles in the air, your work need not be lost; that is where they should be. Now put the foundations under them.
 
 \-- Henry David Thoreau, Walden or, Life in the Woods
 
 
-
+---
 The site is still under construction and will be updated soon.
 
 --Mustafa
