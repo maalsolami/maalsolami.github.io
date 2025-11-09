@@ -29,7 +29,8 @@ Inline math can be rendered by delimiting math expression with a single \$.  For
 Block math can be rendered by delimiting math expression with \$\$.
 
 ```md
-$$\begin{vmatrix}a & b\\
+$$
+\begin{vmatrix}a & b\\
 c & d
 \end{vmatrix}=ad-bc
 $$

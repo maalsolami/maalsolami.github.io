@@ -30,4 +30,3 @@ To embed a post from X, use the same Markdown syntax as external links:
 
 ![](https://www.linkedin.com/posts/amohaisen_the-state-of-peer-review-not-so-promising-activity-7390445953205567488-PXHi)
 
-![](https://raw.githubusercontent.com/maalsolami/maalsolami.github.io/refs/heads/live/quartz.layout.ts)
