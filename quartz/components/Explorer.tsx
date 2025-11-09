@@ -11,6 +11,18 @@ import { concatenateResources } from "../util/resources"
 
 type OrderEntries = "sort" | "filter" | "map"
 
+export function filterTags(node: FileTrieNode): boolean{
+  return node.slugSegment !== "tags"
+}
+
+/* filter content based on an omit list */
+export function omit(node: FileTrieNode, toOmit?: Set<String>): boolean {
+  if(toOmit)
+    return !toOmit. has(node.displayName.toLowerCase())
+  return filterTags(node)
+}
+
+
 export interface Options {
   title?: string
   folderDefaultState: "collapsed" | "open"
@@ -19,7 +31,8 @@ export interface Options {
   sortFn: (a: FileTrieNode, b: FileTrieNode) => number
   filterFn: (node: FileTrieNode) => boolean
   mapFn: (node: FileTrieNode) => void
-  order: OrderEntries[]
+  order: OrderEntries[],
+  toOmit: Set<String>, // content to filter out 
 }
 
 const defaultOptions: Options = {
@@ -46,8 +59,9 @@ const defaultOptions: Options = {
       return -1
     }
   },
-  filterFn: (node) => node.slugSegment !== "tags",
+  filterFn: omit,
   order: ["filter", "map", "sort"],
+  toOmit: new Set(),
 }
 
 export type FolderState = {
