@@ -18,7 +18,7 @@ export function filterTags(node: FileTrieNode): boolean{
 /* filter content based on an omit list */
 export function omit(node: FileTrieNode, toOmit?: Set<String>): boolean {
   if(toOmit)
-    return !toOmit. has(node.displayName.toLowerCase())
+    return !toOmit.has(node.displayName.toLowerCase())
   return filterTags(node)
 }
 
@@ -59,7 +59,8 @@ const defaultOptions: Options = {
       return -1
     }
   },
-  filterFn: omit,
+  filterFn: (node) => node.slugSegment !== "tags" &&
+    !(node.data?.tags?.includes("no_explorer") ?? false),
   order: ["filter", "map", "sort"],
   toOmit: new Set(),
 }
