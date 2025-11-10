@@ -7,6 +7,7 @@ publish: true
 draft:
 enableToc: true
 tags:
+  - no_explorer
 aliases:
   - vrt
 cssclasses:

@@ -49,6 +49,6 @@ Please use the [contact form](https://docs.google.com/forms/d/e/1FAIpQLSe4XV7tFM
 ><iframe title="Contact Form" src="https://docs.google.com/forms/d/e/1FAIpQLSe4XV7tFMATxKQjimwGJwSEmGsrDjSTsZBqTDiE7Hwx46-4zg/viewform?usp=header" height=1024 width=768 ></iframe>
 
 ---
-The site is still under construction and will be updated soon.
+The site is still [under construction](VRT/index) and will be updated with more content soon.
 
 --Mustafa
