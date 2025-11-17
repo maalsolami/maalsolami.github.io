@@ -54,6 +54,7 @@ const config: QuartzConfig = {
         },
       },
     },
+    googleSiteVerification: "OV0IZJbYbgCz-5NSi5w8ZLC8efHk46fIXI_8Avrr9Po",
   },
   plugins: {
     transformers: [

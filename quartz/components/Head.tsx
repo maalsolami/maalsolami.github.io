@@ -86,6 +86,12 @@ export default (() => {
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 
+        {cfg.googleSiteVerification && (
+          <>
+            <meta property="google-site-verification" content={cfg.googleSiteVerification}></meta>
+          </>
+        )}
+
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
