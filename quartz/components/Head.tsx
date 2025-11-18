@@ -88,7 +88,7 @@ export default (() => {
 
         {cfg.googleSiteVerification && (
           <>
-            <meta property="google-site-verification" content={cfg.googleSiteVerification}></meta>
+            <meta name="google-site-verification" content={cfg.googleSiteVerification} ></meta>
           </>
         )}
 
