@@ -22,6 +22,7 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all history for git info
           submodule: true # Checkout out content submodule
+          token: ${{ secrets.DEPLOY_TOKEN }}
       - uses: actions/setup-node@v4
         with:
           node-version: 22
