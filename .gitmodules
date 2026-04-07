@@ -1,0 +1,4 @@
+[submodule "wwwdocs"]
+	path = content
+	url = https://github.com/maalsolami/wwwdocs.git
+	branch = main
