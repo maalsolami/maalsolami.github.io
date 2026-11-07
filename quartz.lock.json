@@ -4,7 +4,7 @@
     "quartz-custom-footer": {
       "source": "github:maalsolami/quartz-custom-footer",
       "resolved": "https://github.com/maalsolami/quartz-custom-footer.git",
-      "commit": "cc6d8270c2654b9a9e04c2e1a781a40cde859b51",
+      "commit": "52abdab7ff419fe2e10d2ef9e764a9682a31928d",
       "installedAt": "2026-11-06T18:03:09.118Z"
     }
   }
