@@ -86,6 +86,7 @@
     "@quartz-community/unlisted-pages": "^1.0.0",
     "@quartz-themes/core": "^2.0.0",
     "@quartz-themes/default": "^1.0.1",
+    "@quartz-themes/tokyo-night": "^1.0.1",
     "ansi-truncate": "^1.4.0",
     "async-mutex": "^0.5.0",
     "chokidar": "^5.0.0",
@@ -115,8 +116,7 @@
     "workerpool": "^10.0.1",
     "ws": "^8.19.0",
     "yaml": "^2.8.2",
-    "yargs": "^18.0.0",
-    "@maalsolami/footer": "^1.0.0"
+    "yargs": "^18.0.0"
   },
   "devDependencies": {
     "@quartz-community/types": "^1.0.0",
